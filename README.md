@@ -293,4 +293,25 @@ The results demonstrate consistently high classification performance across the 
 > **Note:** The reported performance should be interpreted within the context of the underlying questionnaire benchmark and experimental setting. High predictive accuracy does not independently establish clinical diagnostic validity.
 
 ---
+# 📊 Evaluation Metrics
+
+The ASD-Fuzzy-MLP framework supports comprehensive evaluation of classification performance across multiple experimental seeds.
+
+The evaluation includes:
+
+- **Accuracy**
+- **Mean Accuracy**
+- **Standard Deviation**
+- **Multi-Seed Performance**
+- **Classification Performance**
+- **Confusion Matrix**
+- **SHAP Feature Importance**
+- **SHAP Summary Analysis**
+- **Local Prediction Explanations**
+- **Age-Specific Performance Analysis**
+- **Demographic Analysis**
+
+These evaluation measures provide a comprehensive assessment of predictive performance, model stability, and feature-level interpretability.
+
+---
 
