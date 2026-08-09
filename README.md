@@ -41,3 +41,40 @@ The proposed framework emphasizes:
 The framework is intended for **research and computational screening applications** and should not be considered a replacement for professional clinical assessment or diagnosis.
 
 ---
+## ✨ Key Contributions
+
+The major contributions of the proposed **ASD-Fuzzy-MLP** framework include:
+
+- **Interval Type-2 Fuzzy Feature Engineering**  
+  Models uncertainty in questionnaire-derived features using interval-valued fuzzy representations.
+
+- **Bipolar Fuzzy Feature Expansion**  
+  Represents complementary positive and negative information within the screening features.
+
+- **Uncertainty-Aware Transformation**  
+  Incorporates an uncertainty band controlled by:
+
+  \[
+  \delta = 0.15
+  \]
+
+- **Prime-Layered MLP Architecture**  
+  Employs two prime-valued hidden-layer dimensions:
+
+  \[
+  (61,31)
+  \]
+
+- **Strict Leakage-Free Preprocessing**  
+  Ensures that imputation, scaling, and other data-dependent transformations are learned exclusively from the training set.
+
+- **SHAP-Based Explainable AI**  
+  Provides feature-level explanations to identify influential variables contributing to ASD screening predictions.
+
+- **Multi-Seed Reproducibility**  
+  Evaluates the framework using ten predefined random seeds to assess performance stability.
+
+- **Multi-Age Demographic Granularity**  
+  Supports questionnaire-based ASD screening across multiple developmental age groups, including infants, children, adolescents, and adults.
+
+---
