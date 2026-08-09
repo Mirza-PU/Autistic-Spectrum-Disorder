@@ -413,7 +413,7 @@ If you encounter any problems while using **ASD-Fuzzy-MLP**, please report them 
 
 ### Issue Tracker
 
-https:github.com/Mirza-PU/Autistic-Spectrum-Disorder/issues
+https://github.com/Mirza-PU/Autistic-Spectrum-Disorder/issues
 
 When submitting an issue, please provide relevant information such as:
 
