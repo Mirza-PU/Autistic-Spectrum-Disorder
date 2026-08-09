@@ -6,16 +6,7 @@
 Uncertainty-aware ASD screening framework using Interval Type-2 Bipolar Fuzzy feature engineering and prime-layered MLPs $(61, 31)$ for leakage-free, explainable clinical classification.
 
 ---
----
 
-## 🚀 Installation & Setup
-
-Clone the repository and install the required dependencies:
-
-```bash
-git clone [https://github.com/your-username/asd-fuzzy-mlp.git](https://github.com/your-username/asd-fuzzy-mlp.git)
-cd asd-fuzzy-mlp
-pip install -r requirements.txt
 
 
 ## 📌 Overview
