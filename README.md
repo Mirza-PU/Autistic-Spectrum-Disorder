@@ -21,3 +21,23 @@ Official Implementation
 </p>
 
 ---
+## 📖 Overview
+
+**ASD-Fuzzy-MLP** is an uncertainty-aware soft-computing framework designed for automated **Autism Spectrum Disorder (ASD) screening** using questionnaire-based clinical and demographic information.
+
+The framework integrates **Interval Type-2 Fuzzy Logic**, **Bipolar Fuzzy feature engineering**, and **prime-layered Multilayer Perceptrons (MLPs)** to model uncertainty, ambiguity, and nonlinear relationships within ASD screening data.
+
+The proposed framework emphasizes:
+
+- Uncertainty-aware feature representation.
+- Interval Type-2 fuzzy feature expansion.
+- Bipolar fuzzy feature engineering.
+- Prime-layered MLP classification.
+- Strict leakage-free preprocessing.
+- SHAP-based Explainable Artificial Intelligence (XAI).
+- Multi-seed reproducibility.
+- Multi-age demographic analysis.
+
+The framework is intended for **research and computational screening applications** and should not be considered a replacement for professional clinical assessment or diagnosis.
+
+---
