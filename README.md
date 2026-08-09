@@ -81,7 +81,7 @@ The major contributions of the proposed **ASD-Fuzzy-MLP** framework include:
 # 🏗 ASD-Fuzzy-MLP Framework
 
 <p align="center">
-<img src="pipeline_architecture.png" width="700">
+<img src="architecture.png" width="700">
 </p>
 
 The proposed framework integrates uncertainty-aware fuzzy feature engineering, leakage-free preprocessing, neural classification, multi-seed evaluation, and explainable AI.
