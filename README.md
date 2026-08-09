@@ -135,4 +135,31 @@ The proposed hidden-layer topology is:
 
 ```text
 (61, 31)
+---
+# ⚙️ Hyperparameters
+
+The principal experimental and optimization parameters used in the ASD-Fuzzy-MLP framework are summarized below.
+
+| Component | Value |
+|------------|-------|
+| Train/Test Split | Stratified 80:20 |
+| Missing-Value Imputation | Median / Mode |
+| Feature Scaling | StandardScaler |
+| Scaling Strategy | Training Set Only |
+| Fuzzy Representation | Interval Type-2 + Bipolar Fuzzy |
+| Uncertainty Band | `δ = 0.15` |
+| Hidden Layer 1 | `61` |
+| Hidden Layer 2 | `31` |
+| Activation Function | ReLU |
+| Optimizer | Adam |
+| Maximum Iterations | `500` |
+| Evaluation Strategy | Multi-Seed |
+| Number of Seeds | `10` |
+
+### 🔁 Random Seeds
+
+The experiments use the following predefined random seeds:
+
+```python
+SEEDS = [42, 100, 23, 7, 99, 123, 456, 789, 321, 555]
 
