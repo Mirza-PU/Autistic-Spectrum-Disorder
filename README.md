@@ -19,10 +19,6 @@ Early clinical screening for Autism Spectrum Disorder (ASD) often struggles with
 4. **Explainable AI (XAI):** Integrated SHAP (Shapley Additive exPlanations) analysis to quantify feature contribution hierarchies.
 
 ---
-
-
-
-
 ## 📂 Repository Structure
 ```text
 ├── data/                       # Consolidated multi-age ASD benchmark datasets
@@ -35,11 +31,8 @@ Early clinical screening for Autism Spectrum Disorder (ASD) often struggles with
 ├── outputs/                    # Generated confusion matrices, learning curves, and SHAP plots
 ├── requirements.txt            # Python dependencies
 └── README.md
-
-
 ---
-
-### 🚀 Installation & Setup
+ ### 🚀 Installation & Setup
 
 Clone the repository and install the required dependencies:
 
