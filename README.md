@@ -314,4 +314,198 @@ The evaluation includes:
 These evaluation measures provide a comprehensive assessment of predictive performance, model stability, and feature-level interpretability.
 
 ---
+# 🔁 Reproducibility
+
+The ASD-Fuzzy-MLP implementation is designed to support reproducible experimental evaluation.
+
+The following settings are fixed throughout the experiments:
+
+- Stratified **80:20 train/test split**.
+- Median/mode missing-value imputation.
+- Training-only `StandardScaler` fitting.
+- Interval Type-2 and Bipolar Fuzzy feature transformation.
+- Uncertainty parameter **δ = 0.15**.
+- Prime-layered MLP topology **(61, 31)**.
+- ReLU activation.
+- Adam optimizer.
+- Maximum iterations **500**.
+- Ten predefined random seeds.
+- Independent test-set evaluation.
+- SHAP-based explainability.
+
+### 🔢 Experimental Seeds
+
+The predefined seeds used for multi-seed evaluation are:
+
+**42, 100, 23, 7, 99, 123, 456, 789, 321, 555**
+
+Using multiple fixed seeds allows the stability of the proposed framework to be assessed rather than relying on the result of a single random train/test configuration.
+
+---
+# 📄 Citation
+
+If you use **ASD-Fuzzy-MLP**, its methodology, implementation, or experimental results in your research, please cite the associated publication.
+
+### BibTeX
+
+```bibtex
+@article{hussain2026asdfuzzymlp,
+  author  = {Mirza Mudassar Hussain},
+  title   = {Uncertainty-Aware Autism Spectrum Disorder Screening Framework},
+  journal = {Journal of Soft Computing and Clinical AI Decision Support},
+  year    = {2026}
+}
+
+# 👨‍💻 Author
+
+**Mirza Mudassar Hussain**
+
+PhD Mathematics Scholar  
+Institute of Mathematics  
+University of the Punjab  
+Lahore, Pakistan
+
+### Research Interests
+
+- Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Soft Computing
+- Fuzzy Systems
+- Explainable AI
+- Clinical AI
+- Computational Mathematics
+- Uncertainty-Aware Classification
+
+---
+
+# 📬 Contact
+
+For research collaboration, technical questions, or methodological discussions:
+
+**Mirza Mudassar Hussain**
+
+📧 **Email:** `muddasser.mh@gmail.com`
+
+🐙 **GitHub:** https://github.com/Mirza-PU
+
+💼 **LinkedIn:** https://www.linkedin.com/in/mirza-mudassar-hussain
+
+🆔 **ORCID:** https://orcid.org/0009-0002-1897-5458
+
+---
+# 🤝 Contributing
+
+Contributions are welcome from researchers and developers working in:
+
+- Machine Learning
+- Fuzzy Systems
+- Soft Computing
+- Clinical AI
+- Explainable AI
+- Uncertainty Modeling
+- Computational ASD Screening
+
+To contribute:
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Implement and test your changes.
+4. Document the proposed modification.
+5. Commit your changes.
+6. Submit a Pull Request.
+
+Please ensure that contributions maintain the project's reproducibility, documentation standards, and leakage-free experimental methodology.
+
+---
+
+# 🐞 Issues
+
+If you encounter any problems while using **ASD-Fuzzy-MLP**, please report them through the GitHub issue tracker.
+
+### Issue Tracker
+
+https://github.com/Mirza-PU/asd-fuzzy-mlp/issues
+
+When submitting an issue, please provide relevant information such as:
+
+- Python version
+- Operating system
+- Package versions
+- Configuration file
+- Error message or traceback
+- Relevant dataset or preprocessing information
+
+This information helps facilitate efficient troubleshooting and reproducible resolution of reported issues.
+
+---
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+The MIT License permits use, modification, distribution, and reproduction of the software subject to the terms and conditions specified in the license.
+
+See the [`LICENSE`](LICENSE) file for the complete license text.
+
+---
+# 🙏 Acknowledgements
+
+The author gratefully acknowledges:
+
+- The researchers and data providers responsible for the questionnaire-based ASD screening benchmarks used in this research.
+- The Python development community.
+- The Scikit-Learn development team.
+- The PyTorch development team.
+- The NumPy and Pandas development teams.
+- The SHAP development community.
+- The open-source scientific computing and machine-learning community.
+
+The author also acknowledges the broader research community working on **fuzzy systems, uncertainty-aware machine learning, explainable AI, and computational ASD screening**.
+
+---
+# ⭐ Support the Project
+
+If you find **ASD-Fuzzy-MLP** useful in your research, please consider:
+
+- ⭐ Starring the repository.
+- 🍴 Forking the repository.
+- 📚 Citing the associated publication.
+- 🤝 Sharing the work with the research community.
+
+For research collaboration, technical questions, or methodological discussions, please contact:
+
+**Mirza Mudassar Hussain**
+
+📧 `muddasser.mh@gmail.com`
+
+Your support helps increase the visibility of the project and encourages further research and development.
+
+---
+# ⚠️ Disclaimer
+
+**ASD-Fuzzy-MLP** is a research and computational screening framework.
+
+It is **not a medical diagnostic device** and should not be used as a substitute for professional clinical assessment, diagnosis, or medical advice.
+
+Model predictions should not replace the judgment of qualified healthcare professionals.
+
+The reported experimental results are specific to the datasets, preprocessing procedures, and evaluation protocols used in this research.
+
+---
+
+<p align="center">
+
+<strong>ASD-Fuzzy-MLP</strong><br>
+
+Uncertainty-Aware Autism Spectrum Disorder Screening Framework
+
+<br><br>
+
+Developed for uncertainty-aware, explainable, and soft-computing-based computational ASD screening research.
+
+<br><br>
+
+© 2026 <strong>Mirza Mudassar Hussain</strong> · MIT License
+
+</p>
 
