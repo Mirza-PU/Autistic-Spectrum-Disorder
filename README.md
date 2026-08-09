@@ -135,7 +135,7 @@ The proposed hidden-layer topology is:
 
 ```text
 (61, 31)
----
+___
 # ⚙️ Hyperparameters
 
 The principal experimental and optimization parameters used in the ASD-Fuzzy-MLP framework are summarized below.
