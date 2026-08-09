@@ -162,3 +162,40 @@ The experiments use the following predefined random seeds:
 ```python
 SEEDS = [42, 100, 23, 7, 99, 123, 456, 789, 321, 555]
 
+---
+# 📊 Dataset
+
+The **ASD-Fuzzy-MLP** framework is designed for **multi-age questionnaire-based ASD screening benchmarks**, incorporating clinical questionnaire responses and demographic information across different developmental stages.
+
+### Developmental Age Groups
+
+The benchmark covers multiple developmental stages:
+
+- 👶 **Infants**
+- 🧒 **Children**
+- 🧑 **Adolescents**
+- 👨 **Adults**
+
+The experimental framework incorporates four age categories:
+
+| Age Category | Developmental Group |
+|---|---|
+| Age 0 | Infant |
+| Age 1 | Child |
+| Age 2 | Adolescent |
+| Age 3 | Adult |
+
+The multi-age structure enables evaluation of the proposed uncertainty-aware framework across different developmental stages while maintaining demographic granularity.
+
+### Dataset Characteristics
+
+- Questionnaire-based ASD screening information.
+- Clinical and demographic features.
+- Multiple developmental age groups.
+- Binary ASD screening classification.
+- Structured tabular machine-learning format.
+- Suitable for uncertainty-aware feature engineering and explainable classification.
+
+> **Note:** The original benchmark data are not redistributed in this repository unless their respective licenses and data-sharing conditions permit redistribution.
+
+---
