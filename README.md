@@ -43,7 +43,7 @@ Early clinical screening for Autism Spectrum Disorder (ASD) often struggles with
 
 Clone the repository and install the required dependencies:
 
-```bash
+bash
 git clone [https://github.com/your-username/asd-fuzzy-mlp.git](https://github.com/your-username/asd-fuzzy-mlp.git)
 cd asd-fuzzy-mlp
 pip install -r requirements.txt
