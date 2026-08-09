@@ -117,3 +117,22 @@ The proposed framework integrates uncertainty-aware fuzzy feature engineering, l
 ✅ Publication-Quality Performance Evaluation
 
 ---
+# 🧠 Network Architecture
+
+The proposed **ASD-Fuzzy-MLP** framework employs a prime-layered Multilayer Perceptron (MLP) for ASD classification.
+
+| Layer | Configuration |
+|---------|--------------|
+| Input | IT2 + Bipolar Fuzzy Feature Representation |
+| Hidden Layer 1 | Linear (61) |
+| Activation | ReLU |
+| Hidden Layer 2 | Linear (31) |
+| Activation | ReLU |
+| Output Layer | ASD Classification |
+| Architecture | Prime-Layered MLP |
+
+The proposed hidden-layer topology is:
+
+```text
+(61, 31)
+
