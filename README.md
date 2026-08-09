@@ -199,3 +199,98 @@ The multi-age structure enables evaluation of the proposed uncertainty-aware fra
 > **Note:** The original benchmark data are not redistributed in this repository unless their respective licenses and data-sharing conditions permit redistribution.
 
 ---
+# 🔬 Data Preprocessing
+
+The ASD-Fuzzy-MLP framework follows a strict **leakage-free preprocessing strategy** to ensure that information from the test set does not influence model training or preprocessing parameter estimation.
+
+### Preprocessing Pipeline
+
+- Stratified **80:20 train/test split**.
+- Median imputation for numerical features.
+- Mode imputation for categorical features.
+- `StandardScaler` fitted exclusively on the training set.
+- Training-derived preprocessing parameters applied to the test set.
+- Interval Type-2 fuzzy feature transformation.
+- Bipolar fuzzy feature representation.
+- Uncertainty-aware feature expansion.
+
+### 🔒 Leakage Prevention
+
+To ensure unbiased evaluation:
+
+- The train/test split is performed **before** data-dependent preprocessing.
+- Imputation statistics are calculated using the training data only.
+- Scaling parameters are learned using the training data only.
+- The test set is transformed using parameters learned from the training set.
+- Test data are not used during model fitting.
+- Test data are not used to estimate preprocessing parameters.
+
+This protocol ensures that the reported test performance reflects evaluation on previously unseen data.
+
+---
+# 🧩 IT2 & Bipolar Fuzzy Feature Engineering
+
+The ASD-Fuzzy-MLP framework employs a hybrid **Interval Type-2 (IT2) and Bipolar Fuzzy feature representation** to capture uncertainty and polarity within questionnaire-derived screening information.
+
+### Interval Type-2 Fuzzy Transformation
+
+The IT2 fuzzy component represents uncertainty through interval-valued membership information rather than relying on a single deterministic membership value.
+
+The uncertainty band is controlled by:
+
+**δ = 0.15**
+
+This transformation allows the framework to incorporate uncertainty and ambiguity present in questionnaire responses into the machine-learning representation.
+
+### Bipolar Fuzzy Representation
+
+The Bipolar Fuzzy component captures two complementary aspects of the input information:
+
+- Positive membership information.
+- Negative membership information.
+
+The resulting fuzzy representation provides an uncertainty-aware feature space for the subsequent MLP classification stage.
+
+### Combined Representation
+
+The IT2 and Bipolar Fuzzy transformations are integrated before classification, providing the MLP with enriched features designed to represent both **uncertainty** and **positive/negative information** within the ASD screening data.
+
+---
+# 🧠 Explainable Artificial Intelligence
+
+The ASD-Fuzzy-MLP framework incorporates **SHAP (SHapley Additive exPlanations)** to provide interpretable insights into the model's classification decisions.
+
+### SHAP Analysis
+
+SHAP is used to analyze the contribution of individual features to ASD screening predictions.
+
+The explainability analysis supports:
+
+- Global feature importance.
+- Local prediction explanations.
+- Feature contribution analysis.
+- Positive and negative feature effects.
+- Identification of influential questionnaire variables.
+- Interpretation of model predictions across different age groups.
+- Analysis of the relative contribution of uncertainty-aware fuzzy features.
+
+The combination of **IT2 Bipolar Fuzzy feature engineering** and **SHAP-based XAI** provides an interpretable framework for investigating how uncertainty-aware representations contribute to ASD classification.
+
+---
+# 📈 Experimental Results
+
+The ASD-Fuzzy-MLP framework was evaluated using the predefined **10 random seeds** to assess the stability and reproducibility of the proposed approach.
+
+The reported multi-seed performance is summarized below:
+
+| Metric | Mean ± Standard Deviation |
+|---|---:|
+| **Mean Train Accuracy** | **1.0000 ± 0.0000** |
+| **Mean Test Accuracy** | **99.91% ± 0.18%** |
+
+The results demonstrate consistently high classification performance across the predefined experimental seeds under the specified leakage-free preprocessing and evaluation protocol.
+
+> **Note:** The reported performance should be interpreted within the context of the underlying questionnaire benchmark and experimental setting. High predictive accuracy does not independently establish clinical diagnostic validity.
+
+---
+
