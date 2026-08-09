@@ -366,6 +366,20 @@ Lahore, Pakistan
 - Uncertainty-Aware Classification
 
 ---
+# 📄 Citation
+
+If you use **ASD-Fuzzy-MLP**, its methodology, implementation, or experimental results in your research, please cite the associated publication.
+
+### BibTeX
+
+```bibtex
+@article{hussain2026asdfuzzymlp,
+  author  = {Mirza Mudassar Hussain},
+  title   = {Uncertainty-Aware Autism Spectrum Disorder Screening Framework},
+  journal = {Journal of Soft Computing and Clinical AI Decision Support},
+  year    = {2026}
+}
+---
 
 # 📬 Contact
 
