@@ -78,3 +78,42 @@ The major contributions of the proposed **ASD-Fuzzy-MLP** framework include:
   Supports questionnaire-based ASD screening across multiple developmental age groups, including infants, children, adolescents, and adults.
 
 ---
+# 🏗 ASD-Fuzzy-MLP Framework
+
+<p align="center">
+<img src="pipeline_architecture.png" width="700">
+</p>
+
+The proposed framework integrates uncertainty-aware fuzzy feature engineering, leakage-free preprocessing, neural classification, multi-seed evaluation, and explainable AI.
+
+---
+
+# 🚀 Framework Features
+
+✅ Interval Type-2 Fuzzy Feature Expansion
+
+✅ Bipolar Fuzzy Feature Representation
+
+✅ Uncertainty-Aware Feature Transformation
+
+✅ Leakage-Free Data Preprocessing
+
+✅ Median/Mode Missing-Value Imputation
+
+✅ Training-Only StandardScaler
+
+✅ Prime-Layered MLP Classification
+
+✅ ReLU-Based Nonlinear Representation
+
+✅ Multi-Seed Reproducibility
+
+✅ SHAP-Based Explainable AI
+
+✅ Multi-Age ASD Screening Analysis
+
+✅ Demographic Granularity
+
+✅ Publication-Quality Performance Evaluation
+
+---
