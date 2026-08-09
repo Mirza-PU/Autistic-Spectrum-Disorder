@@ -342,19 +342,7 @@ The predefined seeds used for multi-seed evaluation are:
 Using multiple fixed seeds allows the stability of the proposed framework to be assessed rather than relying on the result of a single random train/test configuration.
 
 ---
-# 📄 Citation
 
-If you use **ASD-Fuzzy-MLP**, its methodology, implementation, or experimental results in your research, please cite the associated publication.
-
-### BibTeX
-
-```bibtex
-@article{hussain2026asdfuzzymlp,
-  author  = {Mirza Mudassar Hussain},
-  title   = {Uncertainty-Aware Autism Spectrum Disorder Screening Framework},
-  journal = {Journal of Soft Computing and Clinical AI Decision Support},
-  year    = {2026}
-}
 ---
 # 👨‍💻 Author
 
