@@ -301,48 +301,48 @@ All high-resolution figures generated during the evaluation process are saved in
 
 * **Figure 1:** Train versus test accuracy distributions across the 10 experimental random seeds.
 <p align="center">
-<img src="outputs/seed_distribution.png" width="900">
+<img src="seed_distribution.png" width="900">
 </p>
 
 * **Figure 2:** Confusion matrix heatmap for the optimal model configuration (Seed 42).
 <p align="center">
-<img src="outputs/confusion_matrix.png" width="900">
+<img src="confusion_matrix.png" width="900">
 </p>
 
 * **Figure 3:** Ablation study bar chart illustrating accuracy increments across feature variations and prime-layered topologies.
 <p align="center">
-<img src="outputs/ablation_study.png" width="900">
+<img src="ablation_study.png" width="900">
 </p>
 
 * **Figure 4:** Training loss convergence curves across optimization iterations.
 <p align="center">
-<img src="outputs/learning_curves.png" width="900">
+<img src="learning_curves.png" width="900">
 </p>
 
 * **Figure 5:** SHAP summary beeswarm plot illustrating directional impact and feature magnitudes.
 <p align="center">
-<img src="outputs/shap_summary.png" width="900">
+<img src="shap_summary.png" width="900">
 </p>
 
 * **Figure 6:** Global feature importance ranking based on mean absolute SHAP values.
 <p align="center">
-<img src="outputs/shap_bar.png" width="900">
+<img src="shap_bar.png" width="900">
 </p>
 
 * **Figure 7:** Comparative accuracy bar chart evaluating standard machine learning baselines.
 <p align="center">
-<img src="outputs/baseline_comparison_chart.png" width="900">
+<img src="baseline_comparison_chart.png" width="900">
 </p>
 
 * **Figures 8–11:** Age-group specific confusion matrix heatmaps for demographic cohorts.
 
 <p align="center">
-  <img src="outputs/cm_age_0.png" width="45%" alt="Age Cohort 0">
-  <img src="outputs/cm_age_1.png" width="45%" alt="Age Cohort 1">
+  <img src="cm_age_0.png" width="45%" alt="Age Cohort 0">
+  <img src="cm_age_1.png" width="45%" alt="Age Cohort 1">
 </p>
 <p align="center">
-  <img src="outputs/cm_age_2.png" width="45%" alt="Age Cohort 2">
-  <img src="outputs/cm_age_3.png" width="45%" alt="Age Cohort 3">
+  <img src="cm_age_2.png" width="45%" alt="Age Cohort 2">
+  <img src="cm_age_3.png" width="45%" alt="Age Cohort 3">
 </p>
 
 ---
