@@ -355,7 +355,7 @@ If you use **ASD-Fuzzy-MLP**, its methodology, implementation, or experimental r
   journal = {Journal of Soft Computing and Clinical AI Decision Support},
   year    = {2026}
 }
-
+---
 # 👨‍💻 Author
 
 **Mirza Mudassar Hussain**
