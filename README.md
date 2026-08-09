@@ -301,12 +301,12 @@ All high-resolution figures generated during the evaluation process are saved in
 
 * **Figure 1:** Train versus test accuracy distributions across the 10 experimental random seeds.
 <p align="center">
-<img src="seed_distribution.png" width="900">
+<img src="seed_distribution.png" width="500">
 </p>
 
 * **Figure 2:** Confusion matrix heatmap for the optimal model configuration (Seed 42).
 <p align="center">
-<img src="confusion_matrix.png" width="900">
+<img src="confusion_matrix.png" width="500">
 </p>
 
 * **Figure 3:** Ablation study bar chart illustrating accuracy increments across feature variations and prime-layered topologies.
@@ -337,12 +337,12 @@ All high-resolution figures generated during the evaluation process are saved in
 * **Figures 8–11:** Age-group specific confusion matrix heatmaps for demographic cohorts.
 
 <p align="center">
-  <img src="cm_age_0.png" width="45%" alt="Age Cohort 0">
-  <img src="cm_age_1.png" width="45%" alt="Age Cohort 1">
+  <img src="cm_age_0.png" width="25%" alt="Age Cohort 0">
+  <img src="cm_age_1.png" width="25%" alt="Age Cohort 1">
 </p>
 <p align="center">
-  <img src="cm_age_2.png" width="45%" alt="Age Cohort 2">
-  <img src="cm_age_3.png" width="45%" alt="Age Cohort 3">
+  <img src="cm_age_2.png" width="25%" alt="Age Cohort 2">
+  <img src="cm_age_3.png" width="25%" alt="Age Cohort 3">
 </p>
 
 ---
