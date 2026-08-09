@@ -133,7 +133,6 @@ The proposed **ASD-Fuzzy-MLP** framework employs a prime-layered Multilayer Perc
 
 The proposed hidden-layer topology is:
 
-```text
 (61, 31)
 ---
 ### ⚙️ Hyperparameters
