@@ -311,27 +311,27 @@ All high-resolution figures generated during the evaluation process are saved in
 
 * **Figure 3:** Ablation study bar chart illustrating accuracy increments across feature variations and prime-layered topologies.
 <p align="center">
-<img src="ablation_study.png" width="900">
+<img src="ablation_study.png" width="500">
 </p>
 
 * **Figure 4:** Training loss convergence curves across optimization iterations.
 <p align="center">
-<img src="learning_curves.png" width="900">
+<img src="learning_curves.png" width="500">
 </p>
 
 * **Figure 5:** SHAP summary beeswarm plot illustrating directional impact and feature magnitudes.
 <p align="center">
-<img src="shap_summary.png" width="900">
+<img src="shap_summary.png" width="500">
 </p>
 
 * **Figure 6:** Global feature importance ranking based on mean absolute SHAP values.
 <p align="center">
-<img src="shap_bar.png" width="900">
+<img src="shap_bar.png" width="500">
 </p>
 
 * **Figure 7:** Comparative accuracy bar chart evaluating standard machine learning baselines.
 <p align="center">
-<img src="baseline_comparison_chart.png" width="900">
+<img src="baseline_comparison_chart.png" width="500">
 </p>
 
 * **Figures 8–11:** Age-group specific confusion matrix heatmaps for demographic cohorts.
