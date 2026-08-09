@@ -39,7 +39,7 @@ Early clinical screening for Autism Spectrum Disorder (ASD) often struggles with
 
 ---
 
-## 🚀 Installation & Setup
+### 🚀 Installation & Setup
 
 Clone the repository and install the required dependencies:
 
