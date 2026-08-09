@@ -155,7 +155,7 @@ The principal experimental and optimization parameters used in the ASD-Fuzzy-MLP
 | Evaluation Strategy | Multi-Seed |
 | Number of Seeds | `10` |
 
-### 🔁 Random Seeds
+## 🔁 Random Seeds
 
 The experiments use the following predefined random seeds:
 
